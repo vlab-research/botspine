@@ -2,7 +2,6 @@ const Kafka = require('node-rdkafka')
 const { Writable } = require('stream')
 const {PromiseThroughStream} = require('@vlab-research/steez')
 
-
 class BotSpine {
   constructor(clientId) {
     const brokers = process.env.BOTSPINE_KAFKA_BROKERS
@@ -83,6 +82,8 @@ class BotSpine {
       this.stream.consumer.disconnect()
     })
   }
+}
 
-
+module.exports = {
+  BotSpine
 }
