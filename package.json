@@ -1,0 +1,23 @@
+{
+  "name": "@vlab-research/botspine",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -w --colors lib/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlab-research/botspine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vlab-research/steez": "0.0.2",
+    "node-rdkafka": "^2.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/vlab-research/botspine/issues"
+  },
+  "homepage": "https://github.com/vlab-research/botspine#readme"
+}
