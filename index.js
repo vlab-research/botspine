@@ -8,7 +8,7 @@ class BotSpine {
     const brokers = process.env.BOTSPINE_KAFKA_BROKERS
     const topic = process.env.BOTSPINE_MESSAGE_TOPIC
 
-    if (!brokers or !topic) {
+    if (!brokers || !topic) {
       throw new Error(`BotSource cannot be instatiated without brokers and topic!!\n brokers: ${brokers}\n topic: ${topic}`)
     }
 
