@@ -14,10 +14,16 @@
   "license": "ISC",
   "dependencies": {
     "@vlab-research/steez": "0.0.2",
+    "async-retry": "^1.2.3",
     "node-rdkafka": "^2.5.1"
   },
   "bugs": {
     "url": "https://github.com/vlab-research/botspine/issues"
   },
-  "homepage": "https://github.com/vlab-research/botspine#readme"
+  "homepage": "https://github.com/vlab-research/botspine#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "rewiremock": "^3.13.7"
+  }
 }
